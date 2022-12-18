@@ -11,9 +11,14 @@
         "src": "/(.*)",
         "dest": "app.js"
       },
+      { "handle": "filesystem" },
       {
         "src": "/(.*)",
-        "dest": "/"
+        "dest": "style.css"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/logo.png"
       }
 
     ]
