@@ -30,7 +30,7 @@ app.post("/",function(req,res){
             }
         ]
     };
-
+// they require data in form of stringlified JSON format
     const jsonData = JSON.stringify(data);
 
     const url="https://us21.api.mailchimp.com/3.0/lists/6345d5423e";
@@ -69,11 +69,3 @@ app.listen(process.env.PORT || 3000,function(){
     console.log("server is up and running at 3000");
 })
 
-
-// API Key
-// b8afc166dcbf1fd962c3e4a2081fd556-us21
-
-// audience id/list id
-// 6345d5423e
-
-// they require data in form of stringlified JSON format
