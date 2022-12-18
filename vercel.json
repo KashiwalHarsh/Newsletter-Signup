@@ -13,11 +13,11 @@
       },
       {
         "src": "/style.css",
-        "dest": "css/style.css"
+        "dest": "/css/style.css"
       },
       {
         "src": "/logo.png",
-        "dest": "images/logo.png"
+        "dest": "/images/logo.png"
       }
     ]
   }
