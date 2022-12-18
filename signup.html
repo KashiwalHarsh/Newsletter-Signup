@@ -17,21 +17,65 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .form-signin {
+            max-width: 330px;
+            padding: 15px;
+
+            align-items: flex-end;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin .top {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin .middle {
+            margin-bottom: -1px;
+            border-radius: 0;
+        }
+
+        .form-signin .bottom {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    </style>
 </head>
 
 <body class="text-center">
 
-        <form action="/" class="form-signin w-100 m-auto" method="post">
-            <img class="mb-4" src="/images/logo.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3">Sign Up to My Newsletter!</h1>
+    <form action="/" class="form-signin w-100 m-auto" method="post">
+        <img class="mb-4" src="logo.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3">Sign Up to My Newsletter!</h1>
 
-            <input type="text" name="fName" class="form-control top" id="floatingInput" placeholder="First Name" required autofocus>
-            <input type="text" name="lName" class="form-control middle" id="floatingPassword" placeholder="Last Name" required>
-            <input type="email" name="Email" class="form-control bottom" id="floatingPassword" placeholder="Email" required>
+        <input type="text" name="fName" class="form-control top" id="floatingInput" placeholder="First Name" required
+            autofocus>
+        <input type="text" name="lName" class="form-control middle" id="floatingPassword" placeholder="Last Name"
+            required>
+        <input type="email" name="Email" class="form-control bottom" id="floatingPassword" placeholder="Email" required>
 
-            <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Sign Me Up!</button>
-            <p class="mt-1 mb-3 text-muted">&copy; Harsh Kashiwal</p>
-        </form>
+        <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Sign Me Up!</button>
+        <p class="mt-1 mb-3 text-muted">&copy; Harsh Kashiwal</p>
+    </form>
 
 
 </body>
