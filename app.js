@@ -69,3 +69,11 @@ app.listen(PORT,function(){
     console.log("server is up and running at 3000");
 })
 
+      // {
+      //   "src": "/style.css",
+      //   "dest": "/css/style.css"
+      // },
+      // {
+      //   "src": "/logo.png",
+      //   "dest": "/images/logo.png"
+      // }

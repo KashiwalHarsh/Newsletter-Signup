@@ -12,12 +12,9 @@
         "dest": "app.js"
       },
       {
-        "src": "/style.css",
-        "dest": "/css/style.css"
-      },
-      {
-        "src": "/logo.png",
-        "dest": "/images/logo.png"
+        "src": "/(.*)",
+        "dest": "/"
       }
+
     ]
   }
