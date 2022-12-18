@@ -10,16 +10,6 @@
       {
         "src": "/(.*)",
         "dest": "app.js"
-      },
-      { "handle": "filesystem" },
-      {
-        "src": "/(.*)",
-        "dest": "style.css"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/logo.png"
       }
-
     ]
   }
